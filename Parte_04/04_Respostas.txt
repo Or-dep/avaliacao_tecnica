@@ -1,0 +1,20 @@
+I.  In your opinion what would be the best data storage (data lake or data warehouse) to store data from different formats (files, images, etc…) and sources (data bases, api, sensors, etc..)? Justify your answer.
+
+In my opinion, between the two there is no better one, both have their distinctions, and they must be raised before the execution of the project. But, to be direct in my answer, to store different data and formats, I think the data lake would be ideal.
+
+Being more flexible and giving more freedom to the user to store data in its original form. Because it is scalable, it can handle large volumes of data without significant restrictions. It is important to remember that the flexibility of the data lake can also present challenges, such as the need to deal with unstructured data for example.
+
+----------------------------------------------------------------------------------
+II.     For a non-technical user what would be the best data storage (data lake or data warehouse) to adopt? Justify your answer.
+
+A data warehouse would be ideal to start with. By having a predefined data structure, it would facilitate insertion and organization, determining which types of files and data would be accepted. Its pre-structured environment would also speed up data analysis, allowing the generation of specific and consistent reports, and enabling the discovery of new insights through analysis.
+
+As the user or project progresses and advances, the incorporation of a data lake would be essential, as it is more flexible in storing different types of data that may not be compatible with the data warehouse. It can also store the data from the data warehouse itself, providing a new range of analyses and explorations of the data.
+
+----------------------------------------------------------------------------------
+III.    In your opinion which data storage (data lake or data warehouse) is the most sensitive to schema changes?
+
+I believe the data lake is more sensitive to schema changes.
+By not having a pre-established schema and dealing with many raw files, and being flexible to different types of data, changing the schema can generate problems in data integrity, implementation and analysis.
+
+----------------------------------------------------------------------------------

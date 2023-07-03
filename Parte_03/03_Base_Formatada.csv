@@ -1,0 +1,16 @@
+,nome,idade,e-mail,valido
+0,carolina da silva,35,carolina.sil@gmail.com,True
+1,gabrielly rezende,43,gabi_rezende@google.com,True
+2,bernardo dias,70,bernardodias@aws.com,True
+3,helena goncalves,23,helena.goncalves.gmail.com,False
+4,renan caldeira,61,renan_caldeira@google.com,True
+5,lucca lopes,46,lucca.com.br,False
+6,andre ribeiro,39,andre_ribeiro.outlook.com.br,False
+7,joao marcelo,32,joao_ma@outlook.br,False
+8,joana da luz,22,joluz@google.com.br,True
+9,vicente moreira,19,vicente.moreira@maxxi.com,True
+10,camila d rocha,51,milarocha@gmail.com,True
+11,elisa monteiro,30,elisa_mo23@yahoo.com.bre,False
+12,daniela dias,43,danidias@maxxi.com,True
+13,daniel gomes,20,danieldias@aws.com,True
+14,heitor nogueira,64,nogueira_heitor@gmail.com,True

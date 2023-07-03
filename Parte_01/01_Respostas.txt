@@ -1,0 +1,126 @@
+
+
+Parte 1 – Manipulação e análise de dados:(01_script.py)
+
+
+I. Qual a pessoa (cod_cadastro) que gastou mais? e a que gastou menos?
+- O que mais gastou foi N°:27
+- No valor total: 47.800000000000004
+
+- O que menos gastou foi N°:16
+- No valor total: 2.8
+
+—------------------------------------------------------------------------------------------------------
+
+II. Qual a região de procedência que gasta mais?
+- A região que mais gasta é interior
+- No total: 189.93
+
+—------------------------------------------------------------------------------------------------------
+
+III. Qual o produto que mais é vendido em quantidade?
+- O produto mais vendido foi o Chocolate
+- Na quantidade 7
+
+—------------------------------------------------------------------------------------------------------
+
+IV. Existe alguma característica da que identifique o grupo das pessoas (top 5) que compram mais produtos em quantidade? E as que gastam mais dinheiro? 
+- Entre as 5 primeiras pessoas que mais compram:
+    1 - todos compraram 3 itens;
+    2 - todos são casados;
+    3 - todos têm o salário maior que 12;
+    4 - todos completaram pelo menos o 2-ensino médio;
+    5 - todos têm idade acima de 26 anos;
+    6 - todos mantiveram o mesmo valor ou gastaram a mais na segunda compra;
+    7 - todos gastaram valores acima de 11 no total de todas suas compras;
+    8 - 4 dos 5 primeiros têm filhos.
+    9 - todos conseguem pagar seus gastos com 1 ou 2 salários
+    10 - valor mínimo de compra foi acima de 2;
+
+- Entre as 5 primeiras pessoas que mais gastam:
+    1 - todos gastaram acima de 31;
+    2 - todos mantiveram o mesmo valor ou gastaram a mais na segunda compra;
+    3 - todos têm o salário maior que 6;
+    4 - todos completaram pelo menos o 1-ensino fundamental;
+    5 - todos têm idade acima de 33 anos;
+    6 - Todos que tiveram mais de uma compra repetiram um item
+    7 - valor mínimo de compra foi acima de 3;
+    8 - 4 dos 5 primeiros tiveram 3 compras.
+
+—------------------------------------------------------------------------------------------------------
+
+V. Você consegue ver alguma relação entre o grau de instrução e o número de filhos? Descreva a sua interpretação do caso, utilizando os dados para justificar as suas conclusões.
+
+1 Filho: 5 cadastros.
+1 possui 1-ensino fundamental possui 32 anos de idade
+4 possuem 2-ensino medio possuem entre 30 a 36 anos de idade 
+Nenhum possui 3-superior
+
+1 - Todos que possuem pelo menos um filho não possuem superior, que pode ser atrelado a causa de estarem em seu início de carreira, ou por conta de não se dedicarem ao seu grau de instrução. 
+
+2 Filhos:7 cadastros.
+2 possuem 1-ensino fundamental, e têm 36 e 39 anos de idade.
+5 possuem 2-ensino medio possuem entre 32 a 48 anos de idade.
+Nenhum possui 3-superior
+
+2 - Aqueles que possuem dois filhos não têm superior, que pode ser atrelado a causa de estarem em seu início de carreira, ou por não focar em desenvolver seu grau de instrução em médio ou superior como objetivo.
+
+3 Filhos: 3 cadastros.
+2 possuem 3-superior, e têm 42 e 43 anos de idade. 
+1 possui 1-ensino fundamental têm a idade de 44 anos.
+Somente um não possui o 2-ensino medio.
+
+3 - De acordo com os dados, somente 2 dos 3 que possuem 3 filhos têm o grau de instrução superior, e foram os únicos com filhos a investirem mais em seus graus de instrução.
+
+5 Filhos: 1 cadastro.
+Tem 40 anos de idade.
+Possui 2-ensino medio.
+
+5 - O único que possui 5 filhos, não detém grau de instrução superior.
+
+—------------------------------------------------------------------------------------------------------
+
+VI. Imagine que a empresa em questão queira desenvolver um programa de cashback de benefícios baseada no perfil dos clientes, sendo assim, o primeiro passo seria desenvolver este perfil. Proponha um critério para classificar os clientes em clientes diamante, ouro e prata . Justifique a sua resposta.
+
+Classificação Prata:
+Critérios: 
+- Pagamento de dívida gerada por compra em até 5x salários.
+Benefícios:
+Compra única:
+  - A cada compra a partir de 5 ganhe 3% de cashback no valor total da compra;
+  - A cada compra acima de 10 ganhe 5% de cashback no valor total da compra;
+  - A cada compra acima de 15 ganhe 7% de cashback no valor total da compra;
+A partir da 3° compra:
+  - A cada compra a partir de 5 ganhe 5% de cashback no valor total da compra;
+  - A cada compra acima de 10 ganhe 7% de cashback no valor total da compra;
+-------------------------------------------------------------------
+Classificação Ouro:
+Critérios:
+- Pagamento de dívida gerada por compra em até 3x salários.
+Benefícios:
+Compra única:
+  - A cada compra acima de 5 ganhe 5% de cashback no valor total da compra;
+  - A cada compra acima de 10 ganhe 7% de cashback no valor total da compra;
+  - A cada compra acima de 15 ganhe 10% de cashback no valor total da compra;
+A partir da 3° compra:
+  - A cada compra a partir de 5 ganhe 7% de cashback no valor total da compra;
+  - A cada compra acima de 10 ganhe 10% de cashback no valor total da compra;
+-------------------------------------------------------------------
+Classificação Diamante:
+Critérios:
+- Pagamento de dívida gerada por compra em até 2x salários.
+Benefícios:
+Compra única:
+  - A cada compra acima de 5 ganhe 7% de cashback no valor total da compra;
+  - A cada compra acima de 10 ganhe 10% de cashback no valor total da compra;
+A partir da 3° compra:
+  - A cada compra acima de 5 ganhe 10% de cashback no valor total da compra;
+  - A cada compra acima de 10 ganhe 13% de cashback no valor total da compra.
+-------------------------------------------------------------------
+Toda a grade de critérios de cada nível é pensada em estimular o consumo, e propagar giro de capital. 
+
+Cada uma delas tem seu perfil único, e critérios claros a seguir para se manter nela.
+
+Após o final do período de pagamento será feita uma avaliação para manter ou mudar a categoria do usuário.
+
+—------------------------------------------------------------------------------------------------------

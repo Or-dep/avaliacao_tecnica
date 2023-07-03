@@ -1,0 +1,29 @@
+
+
+Descrição do código (02_script.py): 
+
+
+1 - Função: 
+Uma função recebe um número especificando a quantidade de itens dentro da lista encadeada, mais uma lista encadeada.
+Retornando os valores da lista encadeada reversa.
+
+2 - Conversão:
+A primeira parte da estrutura da função verifica quais são os tipos de dados que estão dentro da lista encadeada. Convertendo todos para o mesmo tipo.
+
+3 - Verificação:
+Em sequência temos a primeira verificação dos dados, caso a quantidade inserida for diferente da real dentro da lista, a função retornará um aviso pedindo para inserir a correção do valor ou da lista encadeada.
+
+4 - Lógica:
+Toda lógica por trás da reversão da lista encadeada está dentro de um “for”, onde o valor de quantidade é inserido para começar o processo.
+O a estrutura do “for” irá fazer uma contagem regressiva a partir do valor de quantidade e indo até zero.
+Dentro do “for” temos apenas uma única linha com um “append” que irá adicionar os valores da lista encadeada em ordem reversa. Onde todos os valores são definidos pela estrutura do “for” pela variável “n”.
+
+Em seguida, após o término do “for” a função irá retornar a lista encadeada reversa.
+
+
+A função pode ser utilizada em diversas ocasiões e em diferentes casos. O mais comum seria por exemplo para uma verificação e validação de estruturas como:
+Algoritmos;
+Estruturas de dados;
+“Pilhas - Último a entrar, Primeiro a sair” - "LIFO - Last In, First Out";
+“Filas - Primeiro a entrar, Primeiro a sair” - “FIFO - First In, First Out”;
+“Tabelas de hash” - “hash tables ou hash maps".
